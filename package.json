@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js",
-    "build": "prisma generate && echo 'Build complete'"
+    "build": "prisma generate && next build",
+    "postinstall": "prisma generate",
   },
   "keywords": [],
   "author": "Akshat Singh Thakur",
