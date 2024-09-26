@@ -15,15 +15,15 @@ dotenv.config();
 // fetching environment variables values    
 const port = process.env.PORT || 7070 ;
 
-const domain = process.env.FRONTEND_URL; // frontend domain
+// const domain = process.env.FRONTEND_URL; // frontend domain
 
 
 // handling cross origin resource sharing
 
-let corsData = {
-    origin: domain,
-    credentials: true
-}
+// let corsData = {
+//     origin: domain,
+//     credentials: true
+// }
 
 app.use(cors());
 // app.use(cors(corsData));
