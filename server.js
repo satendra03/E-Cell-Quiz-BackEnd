@@ -25,16 +25,17 @@ let corsData = {
     credentials: true
 }
 
-app.use(cors(corsData));
+app.use(cors());
+// app.use(cors(corsData));
 app.use(express.json());
 
 // Enable CORS for all routes
-app.use((req, res, next) => {
-    res.setHeader('Access-Control-Allow-Origin', domain);
-    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
-    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
-    next();
-});
+// app.use((req, res, next) => {
+//     res.setHeader('Access-Control-Allow-Origin', domain);
+//     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
+//     res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+//     next();
+// });
 
 // assigning backend server a port
 app.listen(port, (() => {
