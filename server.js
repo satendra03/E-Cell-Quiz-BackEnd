@@ -13,7 +13,7 @@ const app = express();
 dotenv.config();
 
 // fetching environment variables values    
-const port = process.env.PORT || 7070 ;
+// const port = process.env.PORT || 7070 ;
 
 // const domain = process.env.FRONTEND_URL; // frontend domain
 
@@ -38,9 +38,9 @@ app.use(express.json());
 // });
 
 // assigning backend server a port
-app.listen(port, (() => {
-    console.log(`Server started successfully at port :  ${port} `)
-}));
+// app.listen(port, (() => {
+//     console.log(`Server started successfully at port :  ${port} `)
+// }));
 
 
 
