@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // // modules imports 
 // import express from "express";
 // import dotenv from "dotenv"
@@ -64,6 +65,8 @@
 // app.post("/make-user-profile", makeUser)
 
 
+=======
+>>>>>>> b18d12fded2e8af6b8cfa3a9a159943c1b3ec05c
 
 // modules imports 
 import express from "express";
@@ -81,8 +84,13 @@ dotenv.config();
 // fetching environment variables values    
 const port = process.env.PORT || 7070;
 
+<<<<<<< HEAD
 const domain = process.env.FRONTEND_URL; // frontend domain
 // const domain = "http://localhost:3000"; // frontend domain (make sure no trailing slash)
+=======
+// const domain = process.env.FRONTEND_URL; // frontend domain
+const domain = "http://localhost:3000"; // frontend domain (make sure no trailing slash)
+>>>>>>> b18d12fded2e8af6b8cfa3a9a159943c1b3ec05c
 
 // handling cross origin resource sharing
 const corsOptions = {
