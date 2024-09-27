@@ -11,6 +11,7 @@ import makeUser from "./controllers/makeUser.js";
 const app = express();
 dotenv.config();
 
+
 // fetching environment variables values    
 const port = process.env.PORT || 7070;
 
