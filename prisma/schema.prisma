@@ -20,6 +20,7 @@ model user {
   name       String?    
   createdAt  DateTime  @default(now())
   marks      Int       @default(0)
+  completedAt DateTime?
 }
 
 model questions {
