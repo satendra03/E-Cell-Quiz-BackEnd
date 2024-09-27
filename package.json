@@ -4,14 +4,9 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-<<<<<<< HEAD
-    "start": "nodemon server.js",
-    "build": "node server.js" ,
-=======
     "start": "node server.js",
->>>>>>> b18d12fded2e8af6b8cfa3a9a159943c1b3ec05c
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "build": "prisma generate" 
   },
   "keywords": [],
   "author": "Akshat Singh Thakur",

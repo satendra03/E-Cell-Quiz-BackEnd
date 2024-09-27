@@ -8,8 +8,6 @@ const checkUser = async (req, resp) => {
             where: { email: email },
         });
 
-        console.log("satendra searched for data");
-        
         const data = {
             success: true,
             message: "searched for user in the database",

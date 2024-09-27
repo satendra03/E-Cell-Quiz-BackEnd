@@ -14,8 +14,8 @@ dotenv.config();
 // fetching environment variables values    
 const port = process.env.PORT || 7070;
 
-const domain = process.env.FRONTEND_URL; // frontend domain
-// const domain = "http://localhost:3000"; // frontend domain (make sure no trailing slash)
+// const domain = process.env.FRONTEND_URL; // frontend domain
+const domain = "http://localhost:3000"; // frontend domain (make sure no trailing slash)
 
 // handling cross origin resource sharing
 const corsOptions = {
